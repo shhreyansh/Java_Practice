@@ -7,7 +7,7 @@ public class area_square {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the sides of a square");
         double side=sc.nextDouble();
-        double area=4*side;
+        double area=side*side;
         System.out.println("area of square is: "+area);
 
     }
